@@ -5,11 +5,14 @@
 2. [팀 소개 및 주요 기능](#star-팀-소개-및-주요-기능)
 3. [구현 기능](#star-구현-기능)
     - [메인페이지](#pushpin-메인페이지)
-    - [구수민](#1-구수민)
-    - [김은영](#2-김은영)   
-    - [서주원](#3-서주원)   
-    - [윤아영](#4-윤아영)   
-    - [허성범](#5-허성범)   
+    - [전사주소록](#pushpin-전사주소록)
+    - [개인주소록](#pushpin-개인주소록)   
+    - [메일 작성](#pushpin-메일-작성)   
+    - [나에게 메일 작성](#pushpin-나에게-메일-작성)   
+    - [메일 목록 조회](#pushpin-메일-목록-조회)   
+    - [메일 삭제](#pushpin-메일-삭제)   
+    - [메일 태그](#pushpin-메일-태그)   
+    - [메일 상세 조회](#pushpin-메일-상세-조회)   
 3. [Document](#star-document)
 
 ***
@@ -26,41 +29,39 @@
   - 협업을 위한 하나의 플랫폼 사이트 제작 <br>
 
 - 개발 환경 <br><br>
-![image](https://user-images.githubusercontent.com/103404357/194379532-305a4a73-8329-4dfd-85ca-890c3bfeaf4c.png) <br>
+![image](https://user-images.githubusercontent.com/103404357/194376277-d93b1eb7-a193-4188-9dfd-763a54147873.png) <br>
 
 ***
 
 # :star: 팀 소개 및 주요 기능
 ![image](https://user-images.githubusercontent.com/103404357/192155698-c3bbcec1-de4d-42ef-bcce-9afc2e874f42.png)
 
-
-
 ***
 # :star: 구현 기능
+ 
+### 주소록 MVC 페이지 이동
+- [Model](https://github.com/key1018/eduWorks/tree/main/src/main/java/com/finalProject/eduWorks/addressBook/model) 
+- [View](https://github.com/key1018/eduWorks/tree/main/src/main/webapp/WEB-INF/views/addressBook)
+- [Controller](https://github.com/key1018/eduWorks/blob/main/src/main/java/com/finalProject/eduWorks/addressBook/controller/AddressController.java)
+  
+### 메일 MVC 페이지 이동
+- [Model](https://github.com/key1018/eduWorks/tree/main/src/main/java/com/finalProject/eduWorks/mail/model)
+- [View](https://github.com/key1018/eduWorks/tree/main/src/main/webapp/WEB-INF/views/mail)
+- [Controller](https://github.com/key1018/eduWorks/blob/main/src/main/java/com/finalProject/eduWorks/mail/controller/MailController.java)
 
-## :pushpin: 메인페이지
-![메인페이지](https://user-images.githubusercontent.com/103404357/194943634-4debdc7d-e155-4e81-b354-7260ff92791c.gif) <br>
+### :pushpin: 메인페이지
+![메인페이지](https://user-images.githubusercontent.com/103404357/194943117-42a1f759-ee5f-4f1f-9e68-518eaee46dfe.gif) <br>
 - 구현 기능 설명
   - 출퇴근 기록
-  - 전사 공지 / 받은 메일함 / 달력 / 부서 게시판 / 전사 주소록 / 추천, 핫게시판 조회 
+  - 전사 공지 / 받은 메일함 / 달력 / 부서 게시판 / 전사 주소록 / 추천, 핫게시판 조회
   
-<details><summary><h3>1. 구수민</h3></summary>
-
-### 📌
-### 📌 
-### 📌 
-### 📌 
-</details>
-
-<details><summary><h3>2. 김은영</h3></summary>
-
-### 📌 전사주소록
+### :pushpin: 전사주소록
 ![전사주소록](https://user-images.githubusercontent.com/103404357/192148420-9f702f7b-5f61-47e9-b950-18fa44d19474.gif) <br>
 - 구현 기능 설명
   - 오래된순/최신순 정렬 및 페이징처리
   - 주소록 검색 (이름/부서/직급/전화번호/이메일/메모에서 검색)
   
-### 📌 개인주소록
+### :pushpin: 개인주소록
 ![개인주소록](https://user-images.githubusercontent.com/103404357/192149858-f95a2c48-6e67-4fbf-86b8-bebeee60bd29.gif) <br>
 - 구현 기능 설명
   - 오래된순/최신순 정렬 및 페이징처리
@@ -68,7 +69,7 @@
   - 주소록 그룹 추가/수정/삭제
   - 그룹별 연락처 추가/수정/삭제
   
-### 📌 메일 작성
+### :pushpin: 메일 작성
 ![메일작성](https://user-images.githubusercontent.com/103404357/192150424-bd31d504-bccc-442b-b6c5-e9e3becbbdeb.gif)
 - 구현 기능 설명
   - 주소록에서 작성하고자하는 메일 주소 선택하여 '받는사람'에 작성
@@ -77,7 +78,7 @@
   - 메일 미리보기
   - 메일 전송 및 취소
   
-### 📌 메일 작성(나에게)
+### :pushpin: 나에게 메일 작성
 ![메일작성(나에게)](https://user-images.githubusercontent.com/103404357/192151152-6614c673-4b07-451b-aa31-0f54842b7114.gif)
 - 구현 기능 설명
   - 첨부파일 다중 파일 선택/삭제 및 개수 제한 처리
@@ -85,7 +86,7 @@
   - 메일 미리보기
   - 메일 전송 및 취소
   
-### 📌 메일 목록 조회
+### :pushpin: 메일 목록 조회
 ![메일 목록](https://user-images.githubusercontent.com/103404357/192152350-8f4bc6a5-8018-4c94-82ae-8bc3c3483738.gif) <br>
 
 - 구현 기능 설명
@@ -98,14 +99,14 @@
   - 중요 메일 설정시 중요 메일함에서 조회 가능
   - 메일 상세 조회시 읽은 메일함으로 이동
   
-### 📌 메일 삭제
+### :pushpin: 메일 삭제
 ![메일 삭제](https://user-images.githubusercontent.com/103404357/192152728-d79ff8ef-c7dc-4b11-8702-e7fc19432248.gif) <br>
 
 - 구현 기능 설명
   - 메일 선택 삭제
   - '비우기'선택시 전체 삭제
   
-### 📌 메일 태그
+### :pushpin: 메일 태그
 ![메일 태그](https://user-images.githubusercontent.com/103404357/192153737-a2fa7380-9437-4cd1-bd4a-408944454a63.gif) <br>
 
 - 구현 기능 설명
@@ -114,7 +115,7 @@
   - 메일 선택 후 태그 삽입
   - 선택한 메일 태그함으로 이동 및 해당 태그 메일만 조회
   
-### 📌 메일 상세 조회  
+### :pushpin: 메일 상세 조회  
 ![메일 상세 조회2](https://user-images.githubusercontent.com/103404357/192155469-62492c94-bceb-474e-83fa-9a551fc4f4ca.gif) <br>
 
 - 구현 기능 설명
@@ -124,36 +125,6 @@
   - 태그 추가 설정
   - 메일 답장
   - 메일 삭제
-</details>
-
-<details><summary><h3>3. 서주원</h3></summary>
-
-### 📌 
-### 📌 
-### 📌 
-### 📌 
-### 📌 
-### 📌 
-</details>
-
-<details><summary><h3>4. 윤아영</h3></summary>
-
-### 📌 
-### 📌 
-### 📌 
-### 📌 
-### 📌 
-</details>
-
-<details><summary><h3>5. 허성범</h3></summary>
-
-### 📌 
-### 📌 
-### 📌 
-### 📌 
-### 📌 
-</details>
-
 
 ***
 # :star: Document
