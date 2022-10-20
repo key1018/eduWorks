@@ -29,7 +29,7 @@
   - 협업을 위한 하나의 플랫폼 사이트 제작 <br>
 
 - 개발 환경 <br><br>
-![image](https://user-images.githubusercontent.com/103404357/194376277-d93b1eb7-a193-4188-9dfd-763a54147873.png) <br>
+![image](https://user-images.githubusercontent.com/103404357/196953938-27d09ce2-b94d-4eac-bf36-73531df7f435.png) <br>
 
 ***
 
